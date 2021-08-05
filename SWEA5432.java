@@ -12,7 +12,7 @@ public class SWEA5432 {
 		
 		String s = null;
 		char[] arr;
-		char before = 0, here = 0;
+		char before = 0;
 		int sum, stackNum;
 		
 		int T = Integer.parseInt(br.readLine());
