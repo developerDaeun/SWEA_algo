@@ -42,7 +42,7 @@ public class SWEA_1247_최적경로 {
 	// 매개변수 => 이전좌표인덱스 / 고른 좌표개수 / 지금까지 거리 합 / 비트마스킹
 	static void perm(int before, int cnt, int total, int flag) {	
 		if(cnt == N) {
-			total = total + Math.abs(points[before][0]-points[N+1][0]) + Math.abs(points[before][1] - points[N+1][1]);
+			total = total + Math.abs(points[before][0]-points[N+1][0]) + Math.abs(points[before][1] - points[N+1][1]);	// 마지막 고객과 집과의 거리
 			min = Math.min(min, total);
 			return;
 		}
