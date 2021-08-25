@@ -41,7 +41,6 @@ public class SWEA_7465_창용마을무리의개수 {
 			st = new StringTokenizer(br.readLine(), " ");
 			N = Integer.parseInt(st.nextToken());	// 마을사람 수 (1~N번)
 			M = Integer.parseInt(st.nextToken());	// 관계 수(간선 수)
-			parents = new int[N+1];
 			
 			make();	// parents 생성 -> 정점마다 집합 만들기
 			
